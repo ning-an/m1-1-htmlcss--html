@@ -73,6 +73,6 @@ Depending on the tag names, which don't need content to make a complete element.
 ## Q11 - What is autofilling and why is it important?
 It provides automated assistance in filling out the form value. Very convenient.
 ## Q12 - Which attributes are always present in an img element?
-src & alt
+src, alt
 ## Q13 - Which attribute is always present for an anchor tag?
 href
