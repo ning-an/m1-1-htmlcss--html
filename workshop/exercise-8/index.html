@@ -1,1 +1,53 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 8</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration form</legend>
+            <label for="username">Username</label>
+            <input type="text" id='username' name='username' required>
+            <label for="password">password</label>
+            <input type="password" id='password' name='password' required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id='email' name='email' required>
+            <br>
+            <div>
+                Which taxi do you require?
+                <br>
+                <input type="radio" id='car' name='taxi' value='car' checked>
+                <label for="car">Car</label><br>
+                <input type="radio" id='van' name='taxi' value='van'>
+                <label for="van">Van</label><br>
+                <input type="radio" id='tuk tuk' name='taxi' value='tuk tuk'>
+                <label for="tuk tuk">Tuk Tuk</label>
+            </div>
+            <div>
+                Extras
+                <br>
+                <input type="checkbox" name='extra' id='baby seat' value='baby seat'>
+                <label for="baby seat">Baby Seat</label><br>
+                <input type="checkbox" name='extra' id='wheelchair' value='wheelchair access'>
+                <label for="wheerchair">Wheelchair Access</label><br>
+                <input type="checkbox" name='extra' id='stock tip' value='stock tip'>
+                <label for="stock tip">Stock Tip</label>
+            </div>
+            <label for="pickup">Pickup</label>
+            <select name="pickup" id="pickup">
+                <option value="select one">Select one</option>
+                <option value="taxi office">Taxi Office</option>
+                <option value="town hall">Town Hall</option>
+                <option value="we'll guess">We'll guess!</option>
+            </select><br>
+            <label for="special">Special</label>
+            <textarea name="special" id="special" cols="30" rows="3"></textarea><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
